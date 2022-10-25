@@ -1,1 +1,1 @@
-Thsi is frontend week04 assignement directory
+This is frontend week04 assignement directory

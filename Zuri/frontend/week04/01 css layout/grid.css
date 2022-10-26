@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;
+	
+}
+
+body{
+	background-color: black;
+	display: flex;
+	place-items: center;
+	min-height: 100vh;
+}
+
+main 
+{
+	display: grid ;
+	grid-template-areas: 
+	'a a a b b'
+	'a a a b b'
+	'c c d d d'
+	'c c e e e'
+		;
+	grid-template-rows: auto;
+	gap: 10px;
+	width: 50%;
+	margin:auto;
+	
+	
+}
+
+main div { 
+	padding: 2em;
+text-align: center;
+	
+}
+
+.item-a{
+	background-color:#F55908;
+	grid-area: a;
+}
+
+
+.item-b{
+	background-color:yellow;
+	grid-area: b;
+}
+
+
+.item-c{
+	background-color:#19F408;
+	grid-area: c;
+}
+
+.item-d{
+	background-color:cyan;
+	grid-area: d;
+}
+
+.item-e{
+	background-color:cyan;
+	grid-area: e;
+}
